@@ -1,3 +1,5 @@
-window.alert('message');
+var Sent1 = 'This is the beginning of the string', Sent2 = ' and this is the end of the string' /* Assigns variables */
 
-document.write('another message');
+window.alert(5+2); /* Creates an alert on the page */
+
+document.write(Sent1 + Sent2); /* Writes on the document */
