@@ -1,1 +1,3 @@
-alert('message');
+window.alert('message');
+
+document.write('another message');
