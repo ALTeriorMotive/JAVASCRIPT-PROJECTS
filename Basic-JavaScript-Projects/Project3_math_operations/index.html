@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="JS/main.js"></script>
+    </head>
+    <body onload="displayPi()">
+        <p onclick="addition(randomNum(), randomNum())" id="add">Click to do some addtion!</p>
+        <p onclick="increment()" id="increment">Click to increment! ^^^</p>
+        <p onclick="subtraction(randomNum(), randomNum())" id="subtract">Click to do some subtraction!</p>
+        <p onclick="decrement()" id="decrement">Click to decrement! ^^^</p>
+        <p onclick="multiply(randomNum(), randomNum())" id="multiply">Click to do some multiplication!</p>
+        <p onclick="divide(randomNum(), randomNum())" id="divide">Click to do some division!</p>
+        <p onclick="negation(randomNum())" id="negate">Click to do some negation!</p>
+        <p id="pi"></p>
+    </body>
+    <style>
+        p{
+            cursor: pointer;
+            padding-top: 10px;
+        }
+        
+        #increment, #decrement{
+            display: none;
+        }
+    </style>
+</html>
