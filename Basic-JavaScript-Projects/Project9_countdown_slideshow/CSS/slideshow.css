@@ -1,0 +1,107 @@
+.slideshow_container{
+    position: relative;
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    background-color: slategrey;
+    display: block;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.image1, .image2, .image3{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    display: none;
+    top: 20px;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@keyframes fade{
+    from{opacity: 0.6}
+    to{opacity: 1}
+}
+
+.image1{
+    display: block;
+}
+
+#slideSelect{
+    position: relative;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 4px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.dot{
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240);
+    color: azure;
+    width: 15px;
+    height: 15px;
+    z-index: 3;
+    display: inline-block;
+    position: relative;
+    margin: 0 8%;
+    transition: background-color 0.2s;
+}
+
+.dot:hover{
+    background-color: rgb(100, 100, 100);
+    transition: background-color 0.2s;
+}
+
+.slideImg{
+    width: 100%;
+}
+
+.next, .prev{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    align-self: center;
+    font-size: 30px;
+    top: 48%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.next:hover, .prev:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.2s;
+}
+
+.next{
+    right: 15px;
+}
+
+.prev{
+    left: 15px;
+}
+
+.pageNum{
+    position: absolute;
+    margin: 0;
+    top: 15px;
+    left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 2px;
+    padding-right: 2px;
+}

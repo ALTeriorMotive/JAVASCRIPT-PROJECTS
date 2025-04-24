@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf=8">
+    <script src="JS/slideshow.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/slideshow.css">
+</head>
+
+<body>
+    <div class="slideshow_container">
+        <div id="page1" class="image1 slide">
+            <img class="slideImg" src="Images/car1.jpg" alt="Image of an old car">
+            <p class="pageNum">1/3</p>
+            <a class="prev" onclick="changeSlide(-1)">&#10094</a>
+            <a class="next" onclick="changeSlide(1)">&#10095</a>
+        </div>
+        <div id="page2" class="image2 slide">
+            <img class="slideImg" src="Images/car2.jpg" alt="Image of an old car">
+            <p class="pageNum">2/3</p>
+            <a class="prev" onclick="changeSlide(-1)">&#10094</a>
+            <a class="next" onclick="changeSlide(1)">&#10095</a>
+        </div>
+        <div id="page3" class="image3 slide">
+            <img class="slideImg" src="Images/car3.jpg" alt="Image of an old car">
+            <p class="pageNum">3/3</p>
+            <a class="prev" onclick="changeSlide(-1)">&#10094</a>
+            <a class="next" onclick="changeSlide(1)">&#10095</a>
+        </div>
+        <div id="slideSelect">
+            <a class="dot" onclick="setSlide(1)"></a>
+            <a class="dot" onclick="setSlide(2)"></a>
+            <a class="dot" onclick="setSlide(3)"></a>
+        </div>
+    </div>
+</body>
+
+</html>
