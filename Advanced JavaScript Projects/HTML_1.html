@@ -8,13 +8,21 @@
 	<body>
         <p>What type of device do you use most?</p>
         <ul>
-            <li>Phone</li>
-            <li>Laptop</li>
-            <li>Game Console</li>
-            <li>Desktop</li>
+            <li class="wipe">Phone</li>
+            <li class="wipe">Laptop</li>
+            <li class="wipe">Game Console</li>
+            <li class="wipe">Desktop</li>
         </ul>
         <input type="text" id="deviceSelect" placeholder="Pick your device here">
         <button onclick="select()">Submit</button>
         <p id="response"></p>
+
+        <p>Click this button to wipe the above text</p>
+        <button onclick="wipe()">Click here</button>
+
+        <br>
+        <br>
+
+        <canvas id="canvas" width="500" height="500" style="border: 2px solid black; border-radius: 50%;;"></canvas>
 	</body>
 </html>
