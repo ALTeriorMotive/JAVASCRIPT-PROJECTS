@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+/* Font Tangerine from fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+/* Font Lugrasimo from fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+/* Font Felipa from fonts.google.com */
+
+body{
+    background-color: 	#80ceff;
+}
+
+h1{
+    font-family: "Tangerine", cursive;
+    font-size: 60px;
+    color: #FF808E;
+    width: 450px;
+    text-shadow: 
+        1px 1px 2px black,
+        1px 0px 2px black,
+        0px 1px 2px black,
+        0px 0px 2px black,
+        -1px -1px 2px black,
+        -1px 0px 2px black,
+        0px -1px 2px black,
+        0px 0px 2px black;
+}
+
+h3{
+    font-family: "Lugrasimo", cursive;
+    color: darkslateblue;
+}
+
+div{
+    font-family: "Felipa", serif;
+    font-weight: bold;
+    color: 	rgb(38, 38, 38);
+}
+
+#menuBG{
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu{
+    width: 600px;
+    height: 200px;
+}
+
+#totalPrice{
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.middle{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+#showText{
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart{
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder{
+    margin: 10px 0px 0px 200px;
+    width: 100px;
+    height: 40px;
+}
