@@ -16,6 +16,7 @@ function resize(){
     width.textContent = num.placeholder;
     num.style.width = `${width.offsetWidth - 10}px`;
 
+    /* Code below is for use in popUp function, just piggybacking on a "load" event listener */
     document.getElementById('popup-container').style.top = (window.innerHeight * 0.92) + 'px';
 }
 
