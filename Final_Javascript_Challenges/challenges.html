@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Challenges</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/challenges.css">
+		<script src="JS/challenges.js" defer></script>
+	</head>
+	<body onload="fadeIn()">
+		<!-- VW UNIT CHALLENGE -->
+		<p class="vw-challenge">Resize the window or hover over this text</p>
+		<!-- Bookmark challenge pt. 1 -->
+		<nav>
+			<a href="#">Scroll up</a>
+			<a href="#bottom">Scroll down</a>
+		</nav>
+		<!-- Zoom challenge -->
+		<img id="zoom-pic" src="Images/magnifying_glass.jpg" alt="Magnifying glass">
+		<!-- Slideshow Challenge -->
+		<div id="slideshow">
+			<div id="slide-header">
+				<h1>Here's my slideshow!</h1>
+				<p>(It's just motorcycles)</p>
+			</div>
+			<div id="slide-imgs">
+				<img class="image" id="slide1" src="Images/ninga250.jpg">
+				<img class="image" id="slide2" src="Images/suzuki500.jpg">
+				<img class="image" id="slide3" src="Images/ninja650.jpg">
+			</div>
+		</div>
+		<!-- FORM CHALLENGE -->
+		<span id="textWidth"></span>
+		<div id="popup-container">
+			<div id="popup">
+				<form id="theForm">
+					<h2>Popup Form</h2>
+					<input id="phoneNum" type="tel" placeholder="Enter your phone number here">
+					<button id="submit" onclick="validate()">Submit</button>
+				</form>
+				<button onclick="popUp()" data-toggle="closed" id="popBtn">Open Form</button>
+			</div>
+		</div>
+		<!-- Bookmark challenge pt. 2 -->
+		<div id="bottom">
+			<p>Look ↓↓↓</p>
+			<br>
+			<br>
+			<br>
+			<p>Hey :)</p>
+		</div>
+	</body>
+</html>

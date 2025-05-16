@@ -52,3 +52,7 @@ function getTopping(runningTotal, text1){
     document.getElementById('showText').innerHTML = text1; /* Displays the current order to the user */
     document.getElementById('totalPrice').innerHTML = "<h3>Total: <strong>$" + runningTotal + ".00" +"</strong></h3>"; /* Displays the cost of the current order to the user */
 }
+
+function fadeIn(){ /* Fades in the page on load */
+    document.querySelector('body').style.opacity = 1;
+}

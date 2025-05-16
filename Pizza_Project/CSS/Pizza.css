@@ -9,6 +9,8 @@
 
 body{
     background-color: 	#80ceff;
+    opacity: 0; /* Used to fade in the page on load */
+    transition: opacity 3s ease; /* Used to fade in the page on load */
 }
 
 h1{
