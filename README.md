@@ -3,15 +3,15 @@ This is a repository mainly focused on my early JavaScript projects.
 The larger projects are listed here, while some minor ones are not included
 
 ## Projects
--[Academy Cinemas](Academy-Cinemas/index.html)
--[Calculator Project](Advanced_JavaScript_Projects/calculator.html)
--[API Assignment](API_assignment/api.html)
--[JavaScript Challenges](Final_Javascript_Challenges/challenges.html)
--[JQuery](JQuery/index.html)
--[Pizza Menu Project](Pizza_Project/Pizza.html)
--[Portfolio Website](Portfolio_project/index.html)
--[Tic Tac Toe](TicTacToe/TicTacToe.html)
--[Todo App](todo_app/index.html)
+- [Academy Cinemas](Academy-Cinemas/index.html)
+- [Calculator Project](Advanced_JavaScript_Projects/calculator.html)
+- [API Assignment](API_assignment/api.html)
+- [JavaScript Challenges](Final_Javascript_Challenges/challenges.html)
+- [JQuery](JQuery/index.html)
+- [Pizza Menu Project](Pizza_Project/Pizza.html)
+- [Portfolio Website](Portfolio_project/index.html)
+- [Tic Tac Toe](TicTacToe/TicTacToe.html)
+- [Todo App](todo_app/index.html)
 
 ### Academy Cinemas
 Additions to a website from a previous project. Added JavaScript functionality as well as some changes to the HTML
