@@ -1,5 +1,5 @@
 # JAVASCRIPT-PROJECTS
-This is a repository mainly focused on my early JavaScript projects.
+This is a repository mainly focused on my early JavaScript projects.\
 The larger projects are listed here, while some minor ones are not included
 
 ## Projects
